@@ -1,4 +1,4 @@
-const {countDown} = require('./countDown')
+import {countDown} from '../countDown'
 
 describe("test countDown value", () => {
     it("Positive number", () => {

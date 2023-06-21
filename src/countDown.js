@@ -1,11 +1,11 @@
-function countDown(n) {
+export function countDown(n) {
     let str = '';
     if (typeof n != 'number') {
-       return str = "Это не число!";
+        return str = "Это не число!";
     } else if (n != n) {
-    return str = "it's NaN";
+        return str = "it's NaN";
     } else {
-    let arr = [];
+        let arr = [];
         if (n > 0) {
         while (n) {
             arr.push(n)
@@ -21,4 +21,3 @@ function countDown(n) {
         return str;
     }
 }
-module.exports = {countDown}
